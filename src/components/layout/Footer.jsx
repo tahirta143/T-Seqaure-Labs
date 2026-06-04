@@ -1,8 +1,10 @@
 "use client";
 
 import React from "react";
-import { Terminal, Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
+import Image from "next/image";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
+import navbarLogo from "@/app/navbar-logo.png";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -35,14 +37,14 @@ export default function Footer() {
             <a
               href="#"
               onClick={(e) => handleScrollTo(e, "body")}
-              className="flex items-center space-x-2 text-2xl font-bold tracking-tight"
+              className="flex items-center"
+              aria-label="T Square Labs home"
             >
-              <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-accent text-white shadow-[0_0_10px_var(--glow)]">
-                <Terminal size={18} />
-              </div>
-              <span className="bg-gradient-to-r from-foreground via-foreground/90 to-accent bg-clip-text text-transparent">
-                T Square
-              </span>
+              <Image
+                src={navbarLogo}
+                alt="T Square Labs"
+                className="h-12 w-40 rounded-lg object-cover object-center sm:w-52"
+              />
             </a>
             <p className="text-sm text-foreground/70 leading-relaxed">
               Transforming ideas into powerful digital products. We develop premium mobile applications, 

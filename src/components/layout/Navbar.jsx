@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import { useTheme } from "../Providers";
-import { Sun, Moon, Menu, X, Terminal } from "lucide-react";
+import { Sun, Moon, Menu, X } from "lucide-react";
+import navbarLogo from "@/app/navbar-logo.png";
 
 export default function Navbar() {
   const { theme, toggleTheme } = useTheme();
@@ -57,18 +59,15 @@ export default function Navbar() {
         <a
           href="#"
           onClick={(e) => handleScrollTo(e, "body")}
-          className="flex items-center space-x-2 text-2xl font-bold tracking-tight"
+          className="flex items-center"
+          aria-label="T Square Labs home"
         >
-          <div className="relative flex items-center justify-center w-10 h-10 rounded-lg bg-accent text-white shadow-[0_0_15px_var(--glow)]">
-            <Terminal size={22} className="relative z-10 animate-pulse" />
-            <div className="absolute inset-0 rounded-lg bg-accent opacity-50 blur-sm"></div>
-          </div>
-          <span className="bg-gradient-to-r from-foreground via-foreground to-accent bg-clip-text text-transparent">
-            T Square
-          </span>
-          <span className="text-accent text-sm font-light uppercase tracking-widest self-end pb-1 hidden sm:inline-block">
-            Technologies
-          </span>
+          <Image
+            src={navbarLogo}
+            alt="T Square Labs"
+            priority
+            className="h-12 w-40 rounded-lg object-cover object-center sm:w-52"
+          />
         </a>
 
         {/* Desktop Nav Links */}

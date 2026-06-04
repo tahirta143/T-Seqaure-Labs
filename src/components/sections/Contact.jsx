@@ -108,7 +108,7 @@ export default function Contact() {
                     Email Address
                   </h4>
                   <p className="text-base font-semibold break-all">
-                    info@tsquaretechnologies.com
+                    tsquarelabs.info@gmail.com
                   </p>
                 </div>
               </a>
@@ -127,7 +127,7 @@ export default function Contact() {
                     WhatsApp Chat
                   </h4>
                   <p className="text-base font-semibold">
-                    +1 (555) 019-2834
+                    +92 325 4828492
                   </p>
                 </div>
               </a>
@@ -141,7 +141,7 @@ export default function Contact() {
                     Direct Phone
                   </h4>
                   <p className="text-base font-semibold">
-                    +1 (555) 019-2834
+                    +92 325 4828492
                   </p>
                 </div>
               </div>
