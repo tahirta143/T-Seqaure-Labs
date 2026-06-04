@@ -114,11 +114,11 @@ export default function Products() {
 
   const productsData = [
     {
-      title: "Expense Tracker Pro",
+      title: "Expense Tracker App",
       type: "expense",
       color: "#10b981",
       description: "Enterprise-grade financial monitor utilizing AI categorizations, instant invoices, and detailed chart analyses.",
-      techStack: ["Next.js", "MongoDB", "TailwindCSS", "Chart.js"],
+      techStack: ["Flutter", "Dart", "localDB", "OpenAI API"],
       liveLink: "https://demo.example.com",
       gitLink: "https://github.com/example",
     },
