@@ -41,7 +41,7 @@ export default function Products() {
       title: "Expense Tracker App",
       type: "expense",
       // color: "#10b981",
-      image: "/image.png",
+      image: "/expense.png",
       description:
         "Enterprise-grade financial monitor utilizing AI categorizations, instant invoices, and detailed chart analyses.",
       techStack: ["Flutter", "Dart", "localDB", "OpenAI API"],
@@ -54,7 +54,7 @@ export default function Products() {
       // color: "#f43f5e",
       image: "/app.png",
       description:
-        "Biometric monitoring application supporting steps counters, calorie tracking, and cardiac charts.",
+        "HIMS is a healthcare management platform that streamlines hospital operations, including patient records, appointments, billing, prescriptions, and staff management.",
       techStack: ["React Native", "Expo", "SQLite", "Reanimated"],
       liveLink: "https://demo.example.com",
       gitLink: "https://github.com/example",
@@ -65,7 +65,7 @@ export default function Products() {
       // color: "#3b82f6",
       image: "/image.png",
       description:
-        "Custom AI agent orchestrator connecting LangChain pipelines, fine-tuned LLMs, and socket updates.",
+        "HIMS is a healthcare management platform that streamlines hospital operations, including patient records, appointments, billing, prescriptions, and staff management.",
       techStack: ["React", "Express.js", "MySql", "Node.js"],
       liveLink: "https://waseeladiabesity.com/",
       gitLink: "https://github.com/example",
