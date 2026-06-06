@@ -9,7 +9,7 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "T Square Labs | Transforming Ideas Into Digital Products",
+  title: "T Square Innovations | Transforming Ideas Into Digital Products",
   description: "T Square Labs is a premium software agency building high-performance mobile apps, web solutions, AI agents, and custom SaaS platforms.",
   keywords: "Flutter Development, React Native, Next.js Development, Full Stack Development, AI Chatbots, AI Agents, SaaS, UI/UX Design",
   viewport: "width=device-width, initial-scale=1",
