@@ -108,7 +108,7 @@ export default function Contact() {
                     Email Address
                   </h4>
                   <p className="text-base font-semibold break-all">
-                    tsquarelabs.info@gmail.com
+                    tsquareinnovations.info@gmail.com
                   </p>
                 </div>
               </a>
